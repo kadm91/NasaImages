@@ -17,7 +17,7 @@ struct ImageCard: View {
                 image
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 360, height: 220)
+                    .frame(width: 400, height: 220)
                     .cornerRadius(30)
             } placeholder: {
                 ZStack (alignment: .center) {
@@ -25,7 +25,7 @@ struct ImageCard: View {
                         .foregroundColor(.gray)
                         .background(.thinMaterial)
                         .opacity(0.15)
-                        .frame(width: 360, height: 220 )
+                        .frame(width: 400, height: 220 )
     
                     ProgressView().tint(.white).controlSize(.large)
                 }
